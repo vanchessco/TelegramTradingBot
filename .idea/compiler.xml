@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <excludeFromCompile>
+      <directory url="file://$PROJECT_DIR$/proto-library/src/main/resources/archetype-resources" includeSubdirectories="true" />
+    </excludeFromCompile>
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="discovery-server" />
+        <module name="telegram-service" />
+        <module name="rabbitmq-consumer-service" />
+        <module name="gateway-servic" />
+        <module name="moex-service" />
+        <module name="proto-library" />
+        <module name="tinkoff-service" />
+        <module name="web-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="17">
+      <module name="dto-library" target="17" />
+      <module name="gateway-servic" target="17" />
+      <module name="gateway-service" target="17" />
+      <module name="showcase" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
