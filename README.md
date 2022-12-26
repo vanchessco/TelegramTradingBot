@@ -16,6 +16,8 @@
   7)Maven
   
   8)PostgreSQL
+
+  9)REST + protobuf
   
     
 **В проекте используются следующие API:**
